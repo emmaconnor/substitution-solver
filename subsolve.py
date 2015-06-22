@@ -109,8 +109,8 @@ def main():
 
     # read word list and ciphertext from files
     with open(word_list, 'r') as f:
-        dictionary = f.read().replace('\r', '').split('\n')
-        dictionary = [w for w in dictionary if not w.startswith('#')]
+        dictionary = [w.strip() for w in f.read().replace('\r', '').split('\n')]
+        dictionary = [w for w in dictionary if not w.startswith('#') and not w == '']
     with open(cipher_file, 'r') as f:
         ciphertext = f.read().lower()
 
