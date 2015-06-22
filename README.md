@@ -9,8 +9,9 @@ A good wordlist is important for best results. Ideally a wordlist should include
 
 This software, except for the included wordlist.txt, is in the public domain.
 
-The included wordlist is from SCOWL. Below is SCOWL's copyright notice:
+The included wordlist is from SCOWL (http://wordlist.aspell.net/). Below is SCOWL's copyright notice:
 
+```
 Copyright 2000-2015 by Kevin Atkinson
 
 Permission to use, copy, modify, distribute and sell these word
@@ -21,3 +22,4 @@ that both that copyright notice and this permission notice appear in
 supporting documentation. Kevin Atkinson makes no representations
 about the suitability of this array for any purpose. It is provided
 "as is" without express or implied warranty.
+```
